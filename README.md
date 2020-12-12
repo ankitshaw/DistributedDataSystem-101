@@ -1,10 +1,16 @@
 # DistributedDataSystem-101
 
-* [Fundamenntal Principles of Data Systems] ()
-    * [Reliability] ()
-    * [Scalability] ()
-    * [Maintainability] ()
+* [Fundamental Principles of Data Systems] (#fundamental-principles-of-data-systems)
+    * [Reliability] (#reliability)
+    * [Scalability] (#scalability)
+    * [Maintainability] (#maintainability)
 
 
 
-## Fundamenntal Principles of Data Systems
+## Fundamental Principles of Data Systems
+
+### Reliability
+
+### Scalability
+
+### Maintainability
