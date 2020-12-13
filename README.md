@@ -36,3 +36,13 @@ Vertical Scaling is about adding more and powerful resources like CPU, RAM or DI
 ### Horizontal Scaling
 
 Horizontal Scaling in contrast to Vertical Scaling is about adding more machines to your existing architecture for handling high load. Each such machine has its own CPU, RAM and DISK. This is also know as **share nothing architecture**.
+
+
+## How do we distribute Data?
+In a distributed system it becomes very important to distribute data efficiently across different nodes. Two commmon ways data is distributed are **Partition** and **Replication**.
+
+### Partition
+In Partition we split the database into different partitions and each partition is assigned to one of the machines/node in the distributed system. It is also known as sharding.
+
+### Replication
+In Replication we keep a copy of the same data at different locations/node in our distributed architecture. Each node has access to all the data. It increase redundancy, but prevents single point of failure.
