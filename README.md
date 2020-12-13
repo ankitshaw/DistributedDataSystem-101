@@ -4,7 +4,9 @@
     * [Reliability](#reliability)
     * [Scalability](#scalability)
     * [Maintainability](#maintainability)
-* [How do we scale our system?](#)
+* [How do we scale our system?](#how-do-we-scale-our-system)
+    * [Vertical Scaling](#vertical-scaling)
+    * [Horizontal Scaling](#horizontal-scaling)
 
 
 
