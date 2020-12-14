@@ -9,7 +9,7 @@
     * [Horizontal Scaling](#horizontal-scaling)
 * [How do we distribute Data?](#how-do-we-distribute-data)
     * [Partition](#partition)
-    * [Replication](#replcation)
+    * [Replication](#replication)
 
 
 
