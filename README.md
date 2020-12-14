@@ -44,8 +44,17 @@ Horizontal Scaling in contrast to Vertical Scaling is about adding more machines
 ## How do we distribute Data?
 In a distributed system it becomes very important to distribute data efficiently across different nodes. Two commmon ways data is distributed are **Partition** and **Replication**.
 
+### Replication
+In Replication we keep a copy of the same data at different locations/node in our distributed architecture. Each node has access to all the data. It increase redundancy, but prevents single point of failure.
+
 ### Partition
 In Partition we split the database into different partitions and each partition is assigned to one of the machines/node in the distributed system. It is also known as sharding.
 
-### Replication
-In Replication we keep a copy of the same data at different locations/node in our distributed architecture. Each node has access to all the data. It increase redundancy, but prevents single point of failure.
+## Data Replication
+
+Replication means keeping a copy of the same data on multiple machines that are connected via a network. 
+
+### Why the need?
+* 1. For Scalability
+* 2. No Single point of failure
+* 3. Reduced Latency
