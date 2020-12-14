@@ -54,12 +54,12 @@ In Partition we split the database into different partitions and each partition 
 
 Replication means keeping a copy of the same data on multiple machines that are connected via a network. 
 
-#### Why the need?
+### Why the need?
 * For Scalability
 * No Single point of failure
 * Reduced Latency
 
-#### Three popular algorithms for data replication:
+### Three popular algorithms for data replication:
 * Single-Leader Replication
 * Multiple-Leader Replication
 * Leaderless Replication
