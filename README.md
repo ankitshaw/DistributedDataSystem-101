@@ -7,7 +7,7 @@
 * [How do we scale our system?](#how-do-we-scale-our-system)
     * [Vertical Scaling](#vertical-scaling)
     * [Horizontal Scaling](#horizontal-scaling)
-* [How do we distribute Data?](how-do-we-distribute-data)
+* [How do we distribute Data?](#how-do-we-distribute-data)
     * [Partition](#partition)
     * [Replication](#replcation)
 
