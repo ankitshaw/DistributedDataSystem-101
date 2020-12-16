@@ -63,3 +63,16 @@ Replication means keeping a copy of the same data on multiple machines that are 
 * Single-Leader Replication
 * Multiple-Leader Replication
 * Leaderless Replication
+
+### Single - Leader Replication
+In replication one big challege is maintain data consistency across all the replicas of database in different node. 
+We need to make sure changes in one of the replica is available on the other replicas as well.
+
+One of the common ways to solve this to have a leader basad replication.
+Here one of the replica is assigned as the leader.
+All the write request by the clients are sent are sent to the leader replica, which writes the data to its local database.
+
+All the other replicas are known as follower. Whenever the leader writes some data into its local database, it sends these updates or the data change to all the followers. 
+Then these follower in turn update their own local copy of the db maintaining the order of the writes.
+
+Read requests from the client can be served by either the followers or the leader.
