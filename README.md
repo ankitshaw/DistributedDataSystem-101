@@ -10,6 +10,10 @@
 * [How do we distribute Data?](#how-do-we-distribute-data)
     * [Partition](#partition)
     * [Replication](#replication)
+* [Data Replication](#data-replication)
+    * [Why the need?](#why-the-need)
+    * [Reason for Data Replication](#three-popular-algorithms-for-data-replication)
+    * [Single-Leader Replication](#single---leader-replication)
 
 
 
