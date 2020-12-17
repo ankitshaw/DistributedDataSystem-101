@@ -80,3 +80,5 @@ All the other replicas are known as follower. Whenever the leader writes some da
 Then these follower in turn update their own local copy of the db maintaining the order of the writes.
 
 Read requests from the client can be served by either the followers or the leader.
+
+### Multi - Leader Replication
