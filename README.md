@@ -82,3 +82,13 @@ Then these follower in turn update their own local copy of the db maintaining th
 Read requests from the client can be served by either the followers or the leader.
 
 ### Multi - Leader Replication
+
+As the name suggests, multi-leader replication has more than one leader node. Such architecture are used in multi-datacenter structure. Here each data center has its own Leader and multiple Followers.
+
+Within each datacenter, regular single leader replication is followed.
+
+Between two datacenters, one datacenter’s leader replicates its changes to the leader of the other datacenter.
+
+Between more than two datacenters, each datacenter's leader replicates its changs to the leaders of all the other datacenters.
+
+Each datacenter also has mechanisms for write conflict resolution with other datacenters.
