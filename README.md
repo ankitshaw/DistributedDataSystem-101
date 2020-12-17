@@ -14,6 +14,7 @@
     * [Why the need?](#why-the-need)
     * [Reason for Data Replication](#three-popular-algorithms-for-data-replication)
     * [Single-Leader Replication](#single---leader-replication)
+    * [Multi-Leader Replication](#multi---leader-replication)
 
 
 
