@@ -15,6 +15,7 @@
     * [Reason for Data Replication](#three-popular-algorithms-for-data-replication)
     * [Single-Leader Replication](#single---leader-replication)
     * [Multi-Leader Replication](#multi---leader-replication)
+    * [Leaderless Replication](#leaderless-replication)
 
 
 
@@ -93,3 +94,17 @@ Between two datacenters, one datacenter’s leader replicates its changes to the
 Between more than two datacenters, each datacenter's leader replicates its changs to the leaders of all the other datacenters.
 
 Each datacenter also has mechanisms for write conflict resolution with other datacenters.
+
+### Leaderless Replication
+
+Leaderless architecture has no particular leader node for the write operations, allowing any replica to directly accept writes from clients. 
+
+In this architecture every write is sent to every replica. 
+
+Assuming we have **n** replicas, every write must be acknowledged/confirmed by atleast **w** nodes for it to be considered a success. 
+
+For every read we must query **r** nodes to accept the queried data as valid.
+
+Till **w + r > n**, we are sure to get an up-to-date data for our read query.
+
+Reads and writes that obey these r and w values are called quorum reads and writes.
