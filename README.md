@@ -16,6 +16,8 @@
     * [Single-Leader Replication](#single---leader-replication)
     * [Multi-Leader Replication](#multi---leader-replication)
     * [Leaderless Replication](#leaderless-replication)
+ * [Data Partitioning](#data-partitioning)
+   
 
 
 
@@ -108,3 +110,7 @@ For every read we must query **r** nodes to accept the queried data as valid.
 Till **w + r > n**, we are sure to get an up-to-date data for our read query.
 
 Reads and writes that obey these r and w values are called quorum reads and writes.
+
+## Data Partitioning
+
+Large Dataset is distributed across different nodes as paritions. Each piece of data belong to exactly one partition.
