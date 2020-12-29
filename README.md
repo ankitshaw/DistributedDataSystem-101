@@ -113,4 +113,14 @@ Reads and writes that obey these r and w values are called quorum reads and writ
 
 ## Data Partitioning
 
-Large Dataset is distributed across different nodes as paritions. Each piece of data belong to exactly one partition.
+Large Dataset is distributed across different nodes as paritions. Each piece of data belong to exactly one partition. One of the main reason for this is Scalibility.
+
+### Partition with Replication
+
+You will usually see **partitioning** is combined with **replication**. Each partition is replicated and stored at multiple locations.
+
+### Partition of Key-Value Data
+
+Two ways to do that are:
+   1. Partition by Key Range
+   2. Partition by Hash of Key 
